@@ -2,7 +2,7 @@
 
 This is a crowd sourcing app!
 
-# Getting started
+# Started
 
 ## Requirements
 
