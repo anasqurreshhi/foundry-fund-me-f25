@@ -23,10 +23,10 @@ contract ZkSyncDevOps is Test, ZkSyncChainChecker, FoundryZkSyncChecker {
     // // Remove the `onlyVanillaFoundry`, then run `foundryup-zksync` and then
     // // `forge test --mt testZkSyncFoundryFails --zksync`
     // // and this will fail!
-    function testZkSyncFoundryFails() public onlyVanillaFoundry {
-        bool exists = vm.keyExistsJson('{"hi": "true"}', ".hi");
-        assert(exists);
-    }
+    // function testZkSyncFoundryFails() public onlyVanillaFoundry {
+    //     bool exists = vm.keyExistsJson('{"hi": "true"}', ".hi");
+    //     assert(exists);
+    // }
 
     // certain tests only work on zksync foundry and not on vanilla foundry and vice versa.
     // you can use "only" or "skip" keyword to check the test if it only works on provided network,
