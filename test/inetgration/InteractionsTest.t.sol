@@ -21,7 +21,7 @@ contract InteractionsTest is Test {
     }
 
     function testUserCanFundInteractions() public {
-        FundFundMe fundfundMe = new FundFundMe();
+        FundFundMe fundfundMe = new FundFundMe(); //fundfundMe = new cntrct of FFundMe, ffundMe.fFundMe = function ()
         fundfundMe.fundFundMe(address(fundMe));
 
         WithdrawFundMe withdrawfundme = new WithdrawFundMe();
